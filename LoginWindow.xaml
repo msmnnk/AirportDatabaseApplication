@@ -1,0 +1,17 @@
+﻿<Window x:Class="Aviadispetcher.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Aviadispetcher"
+        mc:Ignorable="d"
+        Title="Авторизація" Height="112.205" Width="317.934">
+    <Grid Margin="0,0,3.4,3">
+        <TextBox Name="logTextBox" HorizontalAlignment="Left" Height="23" Margin="76,14,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Name="logLabel" Content="Логін" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.198,-0.086" Width="61"/>
+        <Label Name="passwordLabel" Content="Пароль" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.385,-0.086"/>
+        <TextBox Name="passwordTextBox" HorizontalAlignment="Left" Height="23" Margin="76,45,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Content="ОК" HorizontalAlignment="Left" Margin="211,26,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+
+    </Grid>
+</Window>
